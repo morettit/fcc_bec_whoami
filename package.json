@@ -1,0 +1,32 @@
+{
+  "name": "fcc_bec_whoami",
+  "version": "1.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morettit/fcc_bec_whoami.git"
+  },
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "ejs": "^2.4.2",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "npm",
+    "whoami",
+    "fcc",
+    "json"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morettit/fcc_bec_whoami/issues"
+  },
+  "homepage": "https://github.com/morettit/fcc_bec_whoami#readme"
+}
