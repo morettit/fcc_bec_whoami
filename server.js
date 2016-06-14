@@ -16,6 +16,7 @@ app.get('/api/whoami', function(req,res) {
                "\"language\": \"" + req.get("accept-language").split(',')[0] + "\" , " +
                "\"os\": \"" + req.get("user-agent").split(')')[0].split('(')[1] + "\"" +
                "}";
+    res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify(JSON.parse(json)));
 });
 
